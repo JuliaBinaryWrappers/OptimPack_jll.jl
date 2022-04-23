@@ -1,113 +1,143 @@
 [[OptimPack]]
-arch = "armv7l"
-git-tree-sha1 = "639e87f6d503268144a6c29ec07a33519d763a93"
-libc = "musl"
-os = "linux"
-
-    [[OptimPack.download]]
-    sha256 = "a52ddd57feb5adb07e55a24718f08cb6f5653399c263dd9f3af22b751f2e3a66"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.arm-linux-musleabihf.tar.gz"
-[[OptimPack]]
-arch = "powerpc64le"
-git-tree-sha1 = "8a6d64bc2cbf159aaf6dedc8491a06258fc30d41"
-libc = "glibc"
-os = "linux"
-
-    [[OptimPack.download]]
-    sha256 = "65ee7e46ade79486d73ef47bfa8f49ba854ad1028aaa7c402274b0a3f9519f42"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.powerpc64le-linux-gnu.tar.gz"
-[[OptimPack]]
-arch = "x86_64"
-git-tree-sha1 = "9027dff53cfcae6006473739d1e1599974f30371"
+arch = "aarch64"
+git-tree-sha1 = "88701f1e2d134f822787f46beccf92f8dd6cc4d2"
 os = "macos"
 
     [[OptimPack.download]]
-    sha256 = "d39e76c9266ca40ef27480992a1d55c857ce7501c2b83ca9a51dc1a887ba330f"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "497c90f59d95b8ed9243bfcb83e5ac660de1434d41ee652499f43eeb28cce8c0"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.aarch64-apple-darwin.tar.gz"
 [[OptimPack]]
 arch = "aarch64"
-git-tree-sha1 = "971cfe629b618ee9e5af0a5ef4475fb8559bab67"
+git-tree-sha1 = "7f8548906c4d93c7377fc65f6ce7c4c0eee0eb70"
 libc = "glibc"
 os = "linux"
 
     [[OptimPack.download]]
-    sha256 = "510df4b0889d6c2f6fcf7350b4ebc2f26ef5b29f0906761cfc0883c668296ea5"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "6d29b328e2c4393c284dc26253c936a8df549f6112324eca4eedb3d4e583740a"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.aarch64-linux-gnu.tar.gz"
 [[OptimPack]]
-arch = "armv7l"
-git-tree-sha1 = "6f7fb4ddc4d247997abb63dea790f20e7b5c4f30"
-libc = "glibc"
-os = "linux"
-
-    [[OptimPack.download]]
-    sha256 = "163944ca83d6c76f01ff76a809844ef117a44cbcbb7be948e369d7c6003eb124"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.arm-linux-gnueabihf.tar.gz"
-[[OptimPack]]
-arch = "i686"
-git-tree-sha1 = "759730c2bb6c8baa63f48247ae5e7a178a4a27ff"
+arch = "aarch64"
+git-tree-sha1 = "28c27d5377ac3befea36a737215631373e214171"
 libc = "musl"
 os = "linux"
 
     [[OptimPack.download]]
-    sha256 = "4c3c3ba3d06d383ad27171fd1e16979b76fdd7b0026644a253cedf59d6fdd8f6"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.i686-linux-musl.tar.gz"
+    sha256 = "eb31701e8e7a6a3cdb47d8995eb6eb10f891a3b43d552faa877dad45bba8f8a9"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.aarch64-linux-musl.tar.gz"
 [[OptimPack]]
-arch = "x86_64"
-git-tree-sha1 = "ebb5729bbd8f5df6ca1f629eaa533af9f204c00a"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6267b5afb4aea1be5dc3495879983cf5300a8564"
 libc = "glibc"
 os = "linux"
 
     [[OptimPack.download]]
-    sha256 = "faefc167a7ec6f5abcca1c51af6b640ce838096aac1e62c7ef027a7ac3ea86c4"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "9b358059dcdb24c1a1fa69bf621f704b02a791cec62152eb29bba3bf7910416f"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.armv6l-linux-gnueabihf.tar.gz"
 [[OptimPack]]
-arch = "x86_64"
-git-tree-sha1 = "905cab79e299535535e910319ced3b0cddec54ed"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "01e06bc41392a9a50f683d8721068370f00d892a"
+libc = "musl"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "a659d8b64c764d7a3e1c5dc506893864d0d3b536bbb238215ab928c5a23c96f4"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.armv6l-linux-musleabihf.tar.gz"
+[[OptimPack]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "661b5d863ead367c96df88cf1c4b34236aa61749"
+libc = "glibc"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "98e7375360a28673e2bef67c47bf9e518910259453f91e8720cf7eab78370f0d"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.armv7l-linux-gnueabihf.tar.gz"
+[[OptimPack]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "21db565a07ae0f4ce3b37fb91cd60bc5a9902785"
+libc = "musl"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "3397777fcc6983f9581cd97619a945bef57ed3e83f910bd5ad517aed35de4eea"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.armv7l-linux-musleabihf.tar.gz"
+[[OptimPack]]
+arch = "i686"
+git-tree-sha1 = "18f69c3b2612a33688186561fc03289ebb2561de"
+libc = "glibc"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "9b255cb7475c33636903de928f6d11c719883340f1270d54cc22340da9db3b56"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.i686-linux-gnu.tar.gz"
+[[OptimPack]]
+arch = "i686"
+git-tree-sha1 = "5a3c9c0bbbbc6b24465cb5c9c0d5b62811d9c6e2"
+libc = "musl"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "b273f55fa86eefd2d94aaec1c0bb3b43f1551a5315cf042bddb6af8aeb275998"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.i686-linux-musl.tar.gz"
+[[OptimPack]]
+arch = "i686"
+git-tree-sha1 = "c4cafa70992d0e57f27510bb0590e8cc02085939"
 os = "windows"
 
     [[OptimPack.download]]
-    sha256 = "95619972aad105c6e61c77765881fc5f5ea66742f9086cd64dd65678876d81de"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "1fb66303075ac0d900e7d71b97a6d5f2dc8100bb67871571034630663166f33e"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.i686-w64-mingw32.tar.gz"
 [[OptimPack]]
-arch = "aarch64"
-git-tree-sha1 = "24fa0dce3beeac7f31e172d1f6814288bda25966"
-libc = "musl"
-os = "linux"
-
-    [[OptimPack.download]]
-    sha256 = "d440b5ae32173b530abb83c4669e627a9894d44205c68e7529b8346b011f554f"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.aarch64-linux-musl.tar.gz"
-[[OptimPack]]
-arch = "i686"
-git-tree-sha1 = "f697ceea83a5b0e1b26526a7cf72a432512331ee"
+arch = "powerpc64le"
+git-tree-sha1 = "e29e6a00ec6eec04714a900ea885f07d557fce21"
 libc = "glibc"
 os = "linux"
 
     [[OptimPack.download]]
-    sha256 = "8829b81dec522304108afcab280a0e9a5c36a49d24eaf1a7d40c3cd94b65a0a5"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.i686-linux-gnu.tar.gz"
+    sha256 = "2f90875176950e0a722190961b12a90386f594a9afeabc5f7611c14733646663"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.powerpc64le-linux-gnu.tar.gz"
 [[OptimPack]]
 arch = "x86_64"
-git-tree-sha1 = "3b0c4094ac27859f96200d4d11c5e6f9af910959"
+git-tree-sha1 = "04b7c148b18d4ebc7d4b9f496986cf2db380459e"
+os = "macos"
+
+    [[OptimPack.download]]
+    sha256 = "9e05c95fbf2121cc27a975d2533c14b9accfbeeed3a0daa1ea96eb4bd377504d"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.x86_64-apple-darwin.tar.gz"
+[[OptimPack]]
+arch = "x86_64"
+git-tree-sha1 = "970b77be69a75efb7f46397b4df542e9911b6a97"
+libc = "glibc"
+os = "linux"
+
+    [[OptimPack.download]]
+    sha256 = "7599f4fdae2d7452042fc705cc11245e67fcf07745360bdd81dfb02a6105ddcb"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.x86_64-linux-gnu.tar.gz"
+[[OptimPack]]
+arch = "x86_64"
+git-tree-sha1 = "9d7521748dcc71e7b6c7a8e0eb2c48852be1cf6b"
 libc = "musl"
 os = "linux"
 
     [[OptimPack.download]]
-    sha256 = "bc81107490906e0d1a30fb70edecc2bb7c3b41ec26e84d1a65ef7fd7ff11a727"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "b36a1e3f91cf25b00e245bccbc2553e61b4ad306653742d8adb4d02fa9a8d5ba"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.x86_64-linux-musl.tar.gz"
 [[OptimPack]]
 arch = "x86_64"
-git-tree-sha1 = "e7da6a8971422d5659ea99d2de7f2d6d6301f99b"
+git-tree-sha1 = "66db56ffef7d72a11f84a7f60f42bdf7b7b38ff8"
 os = "freebsd"
 
     [[OptimPack.download]]
-    sha256 = "e489bf229b072c367af610e18302fcd6f1abd1be1310ddf59d59307e11ef6be8"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "05d9b6f2538a6df890240eeef36b428539da3abc27c70d11e04bfd9c13b6745d"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.x86_64-unknown-freebsd.tar.gz"
 [[OptimPack]]
-arch = "i686"
-git-tree-sha1 = "53d3c5aef7d9c589cd7f8ebde0d87663cfa26107"
+arch = "x86_64"
+git-tree-sha1 = "cb4cd2ec7746509c7f83ba4cb321f5b55acc6097"
 os = "windows"
 
     [[OptimPack.download]]
-    sha256 = "cbb4175832d5cdcec305a41cc2571fb44b2fe8568c90a96e1029f081ac64299d"
-    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.1.0+0/OptimPack.v3.1.0.i686-w64-mingw32.tar.gz"
+    sha256 = "91622d3051e5772d1caa07b986867f14376f4d490a26103577a16bd6f5b1c4c2"
+    url = "https://github.com/JuliaBinaryWrappers/OptimPack_jll.jl/releases/download/OptimPack-v3.2.0+0/OptimPack.v3.2.0.x86_64-w64-mingw32.tar.gz"
